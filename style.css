@@ -1,0 +1,154 @@
+body{
+  background-color:beige
+}
+h1{
+  /* text-shadow: 2px 2px 5px #08253e; */
+  height:-1px;
+  text-align: center;
+  color:#08253e;
+  font-size: 2rem;
+  /* border: 3px solid blue; */
+}
+
+
+.topnav {
+    background-color: #08253e;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: beige;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: beige;
+  color:#08253e;
+}
+.topnav a.active:hover {
+  color:beige;
+background-color:#08253e;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+
+
+.container {
+ background-color: #08253e;
+ display: grid;
+ align-items: center; 
+ grid-template-columns: 1fr 1fr 1fr;
+ column-gap: 5px;
+}
+
+img {
+  max-width: 100%;
+  max-height:100%;
+}
+
+.text {
+  font-size: 70px;
+}
+
+span{
+  text-shadow: 2px 2px 10px beige;
+  color: beige;
+}
+
+.svg{
+  height:300px;
+  /* padding: 80px; */
+  margin-left: 100PX;
+}
+
+
+.centered{
+  position: absolute;
+  font-size: 4rem;
+  color: beige;
+  top: 100%;
+  left: 25%;
+}
+
+.centered:hover{
+  color: #08253e;
+  cursor:pointer;
+}
+.cheese{
+  border: 2rem solid beige;
+  left: 58%;
+  top: 140%;
+  position: absolute;
+  width: 200px;
+}
+
+.a3{
+  border: 2rem solid beige;
+  left: 27%;
+  top: 140%;
+  position: absolute;
+  width: 200px;
+}
+.a43{
+  border: 2rem solid beige;
+  left: 10%;
+  top: 140%;
+  position: absolute;
+  width: 200px;
+}
+.a19{
+  border: 2rem solid beige;
+  left: 75%;
+  top: 140%;
+  position: absolute;
+  width: 200px;
+}
+.food{
+  left: 44%;
+  top: 150%;
+  position: absolute;
+  width: 15%;
+  height: 15%;
+}
+
+.form{
+  position:absolute;
+  top: 290%;
+  left: 15%;
+}
+
+fieldset{
+  
+  background-color: beige;
+}
+
+.footer{
+  margin-top: -50px;
+  font-size: 1rem;
+  color: beige;
+  
+  
+}
+
+.fd{
+  position: absolute;
+  font-size: 250%;
+  color: beige;
+  margin-left: 58%;
+  top: 24%;
+}
